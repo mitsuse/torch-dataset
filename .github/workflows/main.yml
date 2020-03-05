@@ -16,8 +16,11 @@ jobs:
         poetry install
     - name: Lint and format
       run: |
-        poetry run flake8 --select F torch_dataset
-        poetry run black --check torch_dataset
+        poetry run flake8 --select F torch_dataset tests
+        poetry run black --check torch_dataset tests
     - name: Check types
       run: |
-        poetry run mypy torch_dataset
+        poetry run mypy torch_dataset tests
+    - name: Test
+      run: |
+        poetry run pytest

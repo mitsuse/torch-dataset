@@ -1,0 +1,25 @@
+{
+    "classes": [
+        "A",
+        "B",
+        "C"
+    ],
+    "images": [
+        {
+            "path": "../images/test-00001.jpg",
+            "class_": 0
+        },
+        {
+            "path": "../images/test-00002.jpg",
+            "class_": 1
+        },
+        {
+            "path": "../images/test-00003.jpg",
+            "class_": 0
+        },
+        {
+            "path": "../images/test-00004.jpg",
+            "class_": 2
+        }
+    ]
+}

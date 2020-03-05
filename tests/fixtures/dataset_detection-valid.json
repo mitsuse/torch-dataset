@@ -1,0 +1,36 @@
+{
+    "classes": [
+        "A",
+        "B",
+        "C"
+    ],
+    "images": [
+        {
+            "path": "../images/test-00001.jpg",
+            "annotations": [
+                {
+                    "bbox": {
+                        "top": 120.1,
+                        "left": 74,
+                        "bottom": 343.9,
+                        "right": 421.5
+                    },
+                    "class": 0
+                },
+                {
+                    "bbox": {
+                        "top": 225.7,
+                        "left": 94.1,
+                        "bottom": 632.7,
+                        "right": 421.5
+                    },
+                    "class": 1
+                }
+            ]
+        },
+        {
+            "path": "../images/test-00002.jpg",
+            "annotations": []
+        }
+    ]
+}
